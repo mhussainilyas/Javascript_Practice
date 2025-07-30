@@ -127,10 +127,13 @@
 //  8. Capitalize the first letter of every word in a sentence.
 // =============================================================
 
-let sentence = "hello i am muhammad hussain ilyas.";
+let sentence = "hello     i'm !muhammad hussain";
 console.log(sentence);
 
-let arr = sentence.split(" ");
+// let arr = sentence.split(" ");
+
+// 👉 Better (cleaner) version
+let arr = sentence.match(/\b[\w'-]+\b/g);
 
 let capitalizeArr = arr.map((val, index) => {
     return val.charAt(0).toUpperCase() + val.slice(1);
