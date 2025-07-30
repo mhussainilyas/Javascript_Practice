@@ -35,6 +35,6 @@
 //   Count the words present in a given string.
 // ==============================================
 
-let str = prompt("Insert some random text here: ");
-console.log(`String you entered: ${str}`);
-console.log(`Total words: ${str.split(" ").length}`);
+// let str = prompt("Insert some random text here: ");
+// console.log(`String you entered: ${str}`);
+// console.log(`Total words: ${str.split(" ").length}`);
