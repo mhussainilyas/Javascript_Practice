@@ -1,0 +1,9 @@
+.box {
+  background-color: silver;
+  padding: 10px;
+}
+
+.new-box {
+  text-align: center;
+  font-size: 20px;
+}
