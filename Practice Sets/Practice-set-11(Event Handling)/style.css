@@ -1,0 +1,7 @@
+/* Example 01 */
+
+.inc-dec-counter {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
