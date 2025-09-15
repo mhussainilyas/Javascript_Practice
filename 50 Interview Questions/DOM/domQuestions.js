@@ -86,14 +86,30 @@
 // 35)🚀 Create a Show/Hide Password Toggle 🎯
 // ============================================
 
-let passwordInput = document.querySelector("#password");
-let passwordShowIcon = document.querySelector("#password-show-icon > i");
+// let passwordInput = document.querySelector("#password");
+// let passwordShowIcon = document.querySelector("#password-show-icon > i");
 
-function handleShowPassword() {
-  let passwordType = passwordInput.type;
-  passwordInput.type = passwordType === "password" ? "text" : "password";
-    passwordShowIcon.classList.toggle("fa-eye-slash");
-    passwordShowIcon.classList.toggle("fa-eye");
-}
+// function handleShowPassword() {
+//   let passwordType = passwordInput.type;
+//   passwordInput.type = passwordType === "password" ? "text" : "password";
+//   passwordShowIcon.classList.toggle("fa-eye-slash");
+//   passwordShowIcon.classList.toggle("fa-eye");
+// }
 
-passwordShowIcon.addEventListener("click", handleShowPassword);
+// passwordShowIcon.addEventListener("click", handleShowPassword);
+
+// ============================================================================
+// 36) 🚀 Create a sticky Header on scroll. The Header become fixed to the
+//        top after scrolling down (Key concept: scroll event, window.scrollY,
+//        classList.add/remove) 🎯
+// ============================================================================
+
+// let header = document.querySelector("header");
+
+// window.addEventListener("scroll", (e) => {
+//   if (window.scrollY >= 230) {
+//     header.classList.add("sticky-navbar");
+//   } else {
+//     header.classList.remove("sticky-navbar");
+//   }
+// });
