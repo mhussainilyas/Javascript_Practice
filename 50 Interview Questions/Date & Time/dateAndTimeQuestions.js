@@ -131,20 +131,20 @@
 //        in a utility? 🎯
 // =========================================================================
 
-let date = "2005-04-27T12:00:00.000Z";
+// let date = "2005-04-27T12:00:00.000Z";
 
-let formattedDate = formatDate(date);
-console.log(formattedDate);
+// let formattedDate = formatDate(date);
+// console.log(formattedDate);
 
-function formatDate(d) {
-  let date = new Date(d);
-  return date.toLocaleDateString("en-PK", {
-    weekday: "long",
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  });
-}
+// function formatDate(d) {
+//   let date = new Date(d);
+//   return date.toLocaleDateString("en-PK", {
+//     weekday: "long",
+//     month: "short",
+//     day: "numeric",
+//     year: "numeric",
+//   });
+// }
 
 // ====================================================================
 // 50) 🚀 What are the different options and parameters available in 
